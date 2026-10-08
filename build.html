@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#b8ff3d">
+<title>Build your roadmap — CareerX</title><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+</head>
+<body class="app-page"><div class="noise"></div><div class="glow g1"></div>
+<header class="nav"><a class="brand" href="index.html"><span class="brand-icon">✦</span>career<span>x</span></a><nav><a href="index.html">Home</a><a href="build.html" class="active">Build roadmap</a><a href="dashboard.html">Demo</a></nav><a class="nav-cta" href="dashboard.html">View demo <span>→</span></a></header>
+<main class="wrap form-page">
+<div class="page-head"><div><div class="eyebrow"><span>✦</span> CAREER PROFILE</div><h1>Start with where you are.<br><em>We’ll work backwards.</em></h1><p>No resume required. Built specifically for students in the early years of college.</p></div><div class="stepper"><b>01</b><i></i><span>02</span><i></i><span>03</span></div></div>
+<div class="form-layout">
+<form class="form-card" id="careerForm">
+<label>Dream job</label><div class="input-wrap"><span>⌕</span><input id="role" required value="AI Engineer" placeholder="e.g. Product Designer"></div>
+<label>Target company <small>optional</small></label><div class="input-wrap"><span>◈</span><input id="company" value="NVIDIA" placeholder="e.g. Google, Microsoft, Deloitte"></div>
+<label>When do you want to be ready?</label><div class="choices" data-group="time"><button type="button" class="selected" data-value="3">3 years</button><button type="button" data-value="1">1 year</button><button type="button" data-value="5">5 years</button></div>
+<label>Where are you right now?</label><div class="choices" data-group="level"><button type="button" data-value="1st year">1st year</button><button type="button" class="selected" data-value="2nd year">2nd year</button><button type="button" data-value="3rd year">3rd year</button><button type="button" data-value="final year">Final year</button></div>
+<label>Skills you already have <small>comma separated</small></label><textarea id="skills" rows="4">Python, SQL, Machine Learning, Git, React</textarea>
+<label>Projects you've built <small>optional</small></label><textarea id="projects" rows="3" placeholder="e.g. attendance app, ML classifier, portfolio website">Portfolio website, small ML classifier</textarea>
+<label>Time you can invest each week</label><div class="range"><input id="hours" type="range" min="3" max="20" value="10"><b><span id="hoursOut">10</span> hrs/week</b></div>
+<div class="student-note"><span>✦</span><div><b>Student-first by design</b><p>No resume required. CareerX uses your current skills, projects, interests and goals.</p></div></div>
+<button class="btn primary submit" type="submit">Reverse-engineer my role <b>→</b></button>
+</form>
+<aside class="form-aside"><div class="aside-card"><div class="mini-eyebrow">WHAT CAREERX WILL FIND</div><div class="finding"><b>Job DNA</b><span>skills + signals</span></div><div class="finding"><b>Skill gap</b><span>current vs required</span></div><div class="finding"><b>Project path</b><span>proof you should build</span></div><div class="finding"><b>Execution plan</b><span>month-by-month</span></div></div><div class="aside-quote">“Your first year isn't too early to start. It's exactly when the gap is easiest to close.”</div></aside>
+</div></main><footer><span>© CareerX</span><span>Student-first career intelligence</span></footer><script src="app.js"></script></body></html>
